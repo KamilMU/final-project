@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+@layer utilities {
+  .notification {
+    animation-duration: 1400ms;
+  }
+  .spinner {
+    animation-duration: 1400ms;
+  }
+  .first-dot {
+    animation-delay: 300ms;
+  }
+  .second-dot {
+    animation-delay: 200ms;
+  }
+  .third-dot {
+    animation-delay: 100ms;
+  }
+}
